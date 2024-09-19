@@ -1,4 +1,4 @@
-his repository contains the source code for BoldAdventures, a web platform designed to connect outdoor enthusiasts with guided biking and hiking adventures. The website offers users the opportunity to:
+This repository contains the source code for BoldAdventures, a web platform designed to connect outdoor enthusiasts with guided biking and hiking adventures. The website offers users the opportunity to:
 
 - Browse curated tours catering to various skill levels and locations.
 - Search for specific trails based on difficulty, location, and desired activity (hiking or biking).

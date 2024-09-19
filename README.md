@@ -8,9 +8,9 @@ This repository contains the source code for BoldAdventures, a web platform desi
 
 Technical Stack:
 
-Frontend: HTML, CSS and JavaScript
-Backend: Node.js with Express
-Database: MongoDB
+- Frontend: HTML, CSS and JavaScript
+- Backend: Node.js with Express
+- Database: MongoDB
 
 
 Deployment:
@@ -20,9 +20,9 @@ The website is deployed on Vercel.
 
 Future Development:
 
-0Auth
-Blog posts
-Online shop
-API integrations
-payment gateways
-mapping libraries
+- 0Auth
+- Blog posts
+- Online shop
+- API integrations
+- payment gateways
+- mapping libraries

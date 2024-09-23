@@ -1,17 +1,16 @@
 const mongoose = require('mongoose');
 
-const tourSchema = new mongoose.Schema({
-  name: String,
-  description: String,
-  date: Date,
-  price: Number,
-  image: String,
-  reviews: [{
-    user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
-    rating: Number,
-    comment: String,
-    date: { type: Date, default: Date.now }
-  }]
+const TourSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  description: { type: String, required: true },
+  price: { type: Number, required: true },
+  duration: { type: Number, required: true },
+  maxGroupSize: { type: Number, required: true },
+  difficulty: { type: String, enum: ['easy', 'medium', 'difficult'], required: true },
+  startDates: [{ type: Date }],
+  images: [{ type: String }],
+  createdBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+  createdAt: { type: Date, default: Date.now }
 });
 
-module.exports = mongoose.model('Tour', tourSchema);
+module.exports = mongoose.model('Tour', TourSchema);

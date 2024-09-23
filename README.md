@@ -15,8 +15,7 @@ Technical Stack:
 
 Deployment:
 
-The website is deployed on Vercel.
-
+The website is live at:  https://boldadventures-app.vercel.app/
 
 Future Development:
 
